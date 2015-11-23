@@ -12,6 +12,7 @@
 		62B36CC41C01979F004A6F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B36CC21C01979F004A6F47 /* Main.storyboard */; };
 		62B36CC61C01979F004A6F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B36CC51C01979F004A6F47 /* Assets.xcassets */; };
 		62B36CC91C01979F004A6F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B36CC71C01979F004A6F47 /* LaunchScreen.storyboard */; };
+		62B36CD31C02E460004A6F47 /* NoExiste.png in Resources */ = {isa = PBXBuildFile; fileRef = 62B36CD21C02E460004A6F47 /* NoExiste.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		62B36CC51C01979F004A6F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62B36CC81C01979F004A6F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62B36CCA1C01979F004A6F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B36CD21C02E460004A6F47 /* NoExiste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoExiste.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				62B36CC51C01979F004A6F47 /* Assets.xcassets */,
 				62B36CC71C01979F004A6F47 /* LaunchScreen.storyboard */,
 				62B36CCA1C01979F004A6F47 /* Info.plist */,
+				62B36CD41C02E46D004A6F47 /* Imagenes */,
 			);
 			path = TareaOpenLibraryJSONCD;
+			sourceTree = "<group>";
+		};
+		62B36CD41C02E46D004A6F47 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				62B36CD21C02E460004A6F47 /* NoExiste.png */,
+			);
+			name = Imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			files = (
 				62B36CC91C01979F004A6F47 /* LaunchScreen.storyboard in Resources */,
 				62B36CC61C01979F004A6F47 /* Assets.xcassets in Resources */,
+				62B36CD31C02E460004A6F47 /* NoExiste.png in Resources */,
 				62B36CC41C01979F004A6F47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
